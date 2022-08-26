@@ -65,6 +65,7 @@
         searchViewController.hotSearchStyle = (NSInteger)indexPath.row;
         searchViewController.searchHistoryStyle = PYHotSearchStyleDefault;
     } else {
+        searchViewController.showHotSearch = NO;
         searchViewController.hotSearchStyle = PYHotSearchStyleDefault;
         searchViewController.searchHistoryStyle = (NSInteger)indexPath.row; 
     }
